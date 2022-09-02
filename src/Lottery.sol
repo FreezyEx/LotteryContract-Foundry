@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-
 /// @title Lottery contract
 /// @author FreezyEx ( https://github.com/FreezyEx )
 /// @notice This contract is a lottery game based on PRNG. 
