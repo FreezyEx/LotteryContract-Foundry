@@ -3,8 +3,6 @@ pragma solidity ^0.8.13;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-import "forge-std/console.sol"; 
-
 contract Lottery {
 
     mapping(uint256 => address) lotteryWinner;
@@ -96,8 +94,6 @@ contract Lottery {
         uint256 winnerIndex = random(seed) % players.length;
         uint256 payout = lotteryInfo[lotteryId].price * lotteryInfo[lotteryId].numOfTickets;
         uint256 feeAmount = payout * FEE / 100;
-        console.log("Winner Index: ", winnerIndex);
-        console.log("Winner Address: ", players[winnerIndex]);
         lotteryWinner[lotteryId] = players[winnerIndex];
         totalPayout += (payout - feeAmount);
         players = new address[](0);
