@@ -3,8 +3,9 @@
 ![Github Actions](https://github.com/freezyex/LotteryContract-Foundry/workflows/test/badge.svg)
 
 ## DISCLAIMER
-This is my first time I use Foundry, so it is very likely that many things can be improved.  
-Feel free to contribute to the repo!
+_This is my first time I use Foundry, so it is very likely that many things can be improved.  
+These smart contracts are being provided as is. They have not been audited and as such there can be no assurance they will work as intended, and users may experience delays, failures, errors, omissions, loss of transmitted information or loss of funds. The creators are not liable for any of the foregoing. Users should proceed with caution and use at their own risk.
+Feel free to contribute to the repo!_
 
 ## How does it work?
 The contract uses a PRNG function to pick a winner from an array of players, as VRF wasn't necessary for the purpose of this project.  
