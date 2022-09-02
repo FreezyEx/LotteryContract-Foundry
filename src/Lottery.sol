@@ -3,6 +3,14 @@ pragma solidity ^0.8.13;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
+/// @title Lottery contract
+/// @author FreezyEx ( https://github.com/FreezyEx )
+/// @notice This contract is a lottery game based on PRNG. 
+///         The admin have to generate a random string and hash it offchain for each lottery.
+///         This hash is set at ther start of the lottery to guarantee a fair game.
+///         To be able to pick a winner, the admin must provide the random string to the contract to
+///         prove the fairness of the game.
+
 contract Lottery {
 
     mapping(uint256 => address) lotteryWinner;
