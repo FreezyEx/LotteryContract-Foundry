@@ -1,7 +1,10 @@
 # <h1 align="center"> Lottery Contract </h1>
 
 ![Github Actions](https://github.com/freezyex/LotteryContract-Foundry/workflows/test/badge.svg)
+[![Foundry][foundry-badge]][foundry]
 
+[foundry]: https://getfoundry.sh/
+[foundry-badge]: https://img.shields.io/badge/Built%20with-Foundry-FFDB1C.svg
 ## DISCLAIMER
 _This is my first time I use Foundry, so it is very likely that many things can be improved.  
 These smart contracts are being provided as is. They have not been audited and as such there can be no assurance they will work as intended, and users may experience delays, failures, errors, omissions, loss of transmitted information or loss of funds. The creators are not liable for any of the foregoing. Users should proceed with caution and use at their own risk.
